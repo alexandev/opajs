@@ -2,7 +2,7 @@
     {
         "id": "comercial01",
         "localidad": "Guayaquil",
-        "nombre": "Patriciaa Ochoa",
+        "nombre": "Patricia Ochoa",
         "fullname": "OCHOA OCHOA MARIA PATRICIA",
         "area": "Comercial",
         "cargo": "Gerente Comercial",
@@ -156,18 +156,6 @@
         "foto": "/web/image/4734/Stevenconfondo.jpg",
         "linkedin": "https://www.linkedin.com",
         "correo": "sullon@opa-consulting.com"   
-    },
-
-    {
-        "id": "desarrollo10",
-        "localidad": "Guayaquil",
-        "nombre": "Jerry Bermeo",
-        "fullname":"BERMEO LOPEZ JERRY JOEL",
-        "area": "Desarrollo",
-        "cargo": "Pasante Semillero",
-        "foto": "https://www.011global.com/Account/Slices/user-anonymous.png",
-        "linkedin": "https://www.linkedin.com",
-        "correo": "jbermeo@opa-consulting.com"   
     },
 
     {
@@ -349,30 +337,6 @@
         "foto": "/web/image/4740/Karenconfondo.jpg",
         "linkedin": "https://www.linkedin.com/in/karen-thalia-burgos-garcia-4832ab1a4/",
         "correo": "kburgos@opa-consulting.com"   
-    },
-
-    {
-        "id": "administrativo02",
-        "localidad": "Guayaquil",
-        "nombre": "Jazmin Ayoví",
-        "fullname": "AYOVI ARROYO JAZMIN",
-        "area": "Administrativo",
-        "cargo": "Líder de Talento Humano",
-        "foto": "/web/image/4741/Jazminconfondo.jpg",
-        "linkedin": "https://www.linkedin.com/",
-        "correo": "jayovi@opa-consulting.com"   
-    },
-
-    {
-        "id": "administrativo03",
-        "localidad": "Guayaquil",
-        "nombre": "José Llontop",
-        "fullname": "LLONTOP GUZMAN JOSE EDUARDO",
-        "area": "Administrativo",
-        "cargo": "Contador",
-        "foto": "/web/image/4742/Joséconfondo.jpg",
-        "linkedin": "https://www.linkedin.com/",
-        "correo": "jayovi@opa-consulting.com"   
     },
 
     {
