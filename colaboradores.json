@@ -72,17 +72,7 @@
         "correo": "mbarahona@opa-consulting.com"
     },
 
-    {
-        "id": "desarrollo01",
-        "localidad": "Guayaquil",
-        "nombre": "Guenael Labois",
-        "fullname": "Guenael Labois",
-        "area": "Desarrollo",
-        "cargo": "Gerente de Mejora Continua",
-        "foto": "/data_opa/static/img/site/export/corporativo/colaboradoresOPA/GuenaelL.jpg",
-        "linkedin": "https://www.linkedin.com/in/guenael-labois/",
-        "correo": "glabois@opa-consulting.com"
-    },
+    
 
     {
         "id": "desarrollo02",
