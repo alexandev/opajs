@@ -1,0 +1,319 @@
+<t t-name="data_opa.corporativo_page_template">
+    <t t-call="website.layout">
+
+
+      <section class="hero">
+        <div class="img-hero" id="hero-corporativo"></div>
+        <div class="overlay-oscuro"></div>
+        <div class="overlay">
+          <div class="texto-hero fadeIn">
+            <h1>Corporativo</h1>
+            <p>
+                ¡Queremos lograr un mundo más digital! Y somos el equipo ideal del que <br/> desearás forma parte para poder lograrlo
+            </p>
+            <a href="#boton-abajo" id="boton-abajo">
+              <div class="boton-abajo">
+                <figure class="m-0 slide-bottom">
+                  <img src="/data_opa/static/img/site/export/corporativo/icons/long-arrow-down.svg" alt=""/>
+                </figure>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="">
+        <div class="wrapper">
+          <div class="mx-auto tabs-flex" id="pestanias">
+            <div class="nav flex-column nav-pills columna-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <h4>Corporativo</h4>
+              <a class="nav-link" id="empresa-tab" data-toggle="pill" href="#v-pills-empresa" role="tab" aria-controls="v-pills-home" aria-selected="false">Empresa</a>
+
+              <a class="nav-link" id="pilares-tab" data-toggle="pill" href="#v-pills-pilares" role="tab" aria-controls="v-pills-profile" aria-selected="false">Pilares</a>
+
+              <a class="nav-link" id="valores-tab" data-toggle="pill" href="#v-pills-valores" role="tab" aria-controls="v-pills-messages" aria-selected="false">Valores</a>
+
+              <a class="nav-link" id="trabaja-tab" data-toggle="pill" href="#v-pills-trabaja" role="tab" aria-controls="v-pills-settings" aria-selected="false">Trabaja con nosotros</a>
+
+              <a class="comercial tab-colaboradores nav-link" id="v-pills-equipo-tab" data-toggle="pill" href="#v-pills-team" role="tab" aria-controls="v-pills-settings" aria-selected="false">Nuestro Equipo</a>
+
+              <a class="comercial tab-colaboradores nav-link ml-4" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-team" role="tab" aria-controls="v-pills-home" aria-selected="false">Comercial</a>
+
+              <a class="desarrollo tab-colaboradores nav-link ml-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-team" role="tab" aria-controls="v-pills-profile" aria-selected="false">Desarrollo</a>
+
+              <a class="consultoría tab-colaboradores nav-link ml-4" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-team" role="tab" aria-controls="v-pills-messages">Consultoría</a>
+
+              <a class="administrativo tab-colaboradores nav-link ml-4" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-team" role="tab" aria-controls="v-pills-settings" aria-selected="false">Administrativo</a>
+
+              <a class="soporte tab-colaboradores nav-link ml-4" id="v-pills-soporte-tab" data-toggle="pill" href="#v-pills-team" role="tab" aria-controls="v-pills-settings" aria-selected="false">Soporte y Calidad</a>
+
+            </div>
+
+            <div class="tab-content mx-auto" id="v-pills-tabContent">
+
+              <div class="tab-pane fade" id="v-pills-empresa" role="tabpanel" aria-labelledby="v-pills-empresa-tab">
+                <div>
+                  <div class="empresa">
+                    <h2>Somos</h2>
+                    <p style="text-align:justify">
+                        Somos una empresa dedicada a impulsar la innovación y transformación digital de los negocios, mejorando la eficiencia de los procesos, fomentando el trabajo colaborativo, la comunicación de equipos y afirmando a su talento humano en la gestión de cambio.
+                    </p>
+                    <br/>
+                    <p style="text-align:justify">    
+                        Aprovechamos la tecnología para mejorar la experiencia de los clientes a través de plataformas ágiles y digitales, desencadenando una verdadera economía digital.
+                    </p>
+                    <br/>
+                    <h2>Nuestra Historia</h2>
+                    <p style="text-align:justify">
+                        OPA Consulting inició sus operaciones a finales del 2018, siendo una empresa joven, sus líderes fundadores cuentan con más de 10 años de experiencia en el sector tecnológico, apoyando a empresas a desarrollar y digitalizar sus operaciones.</p>
+                    <p style="text-align:justify">
+                        Desde el comienzo de nuestras actividades, nos especializamos en los procesos de transformación digital apoyándonos de soluciones de clase mundial.
+                    </p>
+                    <p style="text-align:justify">
+                        Con el transcurso de los años hemos incorporado nuevas líneas de negocio con el objetivo de proveer a nuestros clientes las mejores soluciones empresariales bajo las mejores prácticas del mercado.
+                    </p>
+                    <br/>
+                    <h2>Misión</h2>
+                    <p style="text-align:justify">
+                        Ofrecer soluciones integrales e innovadoras en gestión empresarial, adaptables a las necesidades de nuestros clientes en todas las áreas de la organización, promoviendo su desarrollo y crecimiento, mediante un equipo de profesionales altamente competitivo.
+                    </p>
+                    <br/>
+                    <h2>Visión</h2>
+                    <p style="text-align:justify">
+                        Ser un referente en la innovación de servicios consultivos y de soluciones tecnológicas integrales, alcanzando los primeros puestos de crecimiento en el mercado ecuatoriano y latinoamericano.
+                    </p>
+                    <br/>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-pilares" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <div>
+                  <div class="valoresc">
+                    <h3>Pilares Corporativos</h3>
+                    <div class="grid-container mx-auto">
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/calendar.svg" alt=""/>
+                        </span>
+                        <h4>Experiencia</h4>
+                        <p>
+                            Contamos con un equipo altamente calificado y especializado en las diferentes áreas  de trabajo.
+                        </p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/hands.svg" alt=""/>
+                        </span>
+                        <h4>Innovación</h4>
+                        <p>
+                            Constante aplicación de la información basada en las nuevas y cambiantes tendencias del mercado. 
+                        </p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/check.svg" alt=""/>
+                        </span>
+                        <h4>Calidad</h4>
+                        <p>
+                            Buscamos cumplir con las expectativas de nuestros clientes, por lo que brindamos un servicio con los más altos estándares.
+                        </p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/conversation.svg" alt=""/>
+                        </span>
+                        <h4>Servicio</h4>
+                        <p>
+                            Nos enfocamos en satisfacer las necesidades de cada uno de nuestros clientes de forma personalizada.
+                        </p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                            <img src="/data_opa/static/img/site/export/corporativo/icons/returns.svg" alt=""/>
+                        </span>
+                        <h4>Mejora Continua</h4>
+                        <p>
+                            Nos preocupamos en el rendimiento de nuestros productos y te guiamos con las mejores metodologías ágiles.
+                        </p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                            <img src="/data_opa/static/img/site/export/corporativo/icons/star.svg" alt=""/>
+                        </span>
+                        <h4>Trabajo en equipo</h4>
+                        <p>
+                            Valoramos nuestro equipo de trabajo y generamos lazos estables basados en la confianza y la seguridad.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-valores" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <div>
+                  <div class="valoresc">
+                    <h3>Valores Corporativos</h3>
+                    <div class="grid-container mx-auto">
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/trophy.svg" alt=""/>
+                        </span>
+                        <h4>Responsabilidad</h4>
+                        <p>Asumimos de forma íntegra todas las acciones pactadas con nuestros clientes y la sociedad para ejecutar un proyecto exitoso.</p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/magic-wand.svg" alt=""/>
+                        </span>
+                        <h4>Respeto</h4>
+                        <p>
+                            Establecemos lazos de confianza en todas las relaciones entre nuestro equipo de trabajo y nuestros clientes.
+                        </p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/user-check.svg" alt=""/>
+                        </span>
+                        <h4>Compromiso</h4>
+                        <p>
+                            Es la responsabilidad que nos vincula a ayudar a todas las empresas para su real transformación digital.
+                        </p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/measurer.svg" alt=""/>
+                        </span>
+                        <h4>Transparencia</h4>
+                        <p>
+                            Basamos nuestro trabajo en la honestidad y ofrecemos sólo las mejores soluciones acordes a tus necesidades.
+                        </p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/reach.svg" alt=""/>
+                        </span>
+                        <h4>Constancia</h4>
+                        <p>
+                            Impulsamos el constante trabajo en equipo orientado a resultados para garantizarte el éxito que tanto buscas.
+                        </p>
+                      </div>
+                      <div class="grid-item">
+                        <span>
+                          <img src="/data_opa/static/img/site/export/corporativo/icons/people.svg" alt=""/>
+                        </span>
+                        <h4>Integridad</h4>
+                        <p>
+                            Contarás de principio a fin con un acompañamiento profesional que te guiará hacia las mejores prácticas empresariales.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-trabaja" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                <div>
+                  <div class="work-us">
+                    <div class="enviroment-description">
+                      <h2>Nuestro ambiente de trabajo</h2>
+                      <p>Tenemos un grandioso ambiente de trabajo donde brindamos oportunidades de crecimiento y carrera corporativa. ¡Nuestra gente es lo primero! fomentamos dinámicas sociales y aprendizaje colaborativo</p>
+                      <div class="section-cards">
+                        <div class="a-card">
+                          <figure>
+                            <img src="/data_opa/static/img/site/export/corporativo/unidos.png" alt=""/>
+                          </figure>
+                          <p class="a-card__title">Unidos</p>
+                          <p>Estamos altamente comprometidos con alcanzar la excelencia</p>
+                        </div>
+                        <div class="a-card">
+                          <figure>
+                            <img src="/data_opa/static/img/site/export/corporativo/multidiversos.png" alt=""/>
+                          </figure>
+                          <p class="a-card__title">Multidiversos</p>
+                          <p>Eomos auténticos, originales e inclusivos con cada estilo</p>
+                        </div>
+                        <div class="a-card">
+                          <figure>
+                            <img src="/data_opa/static/img/site/export/corporativo/cooperativos.png" alt=""/>
+                          </figure>
+                          <p class="a-card__title">Cooperativos</p>
+                          <p>Fomentamos los espacios de integración</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="vacancies">
+                      <div class="vacancies__title">
+                        <h2>
+                          <strong>Vacantes</strong>
+                        </h2>
+                      </div>
+                      <div class="vacancies__list">
+                        
+                        <h2 class="mt-5 mb-5">
+                          En este momento no existen vacantes disponibles.
+                        </h2>
+                        
+                        <!--<div class="vacancies__card">-->
+                        <!--  <a href="mailto:rrhh@opa-consulting.com">-->
+                        <!--    <h3>Consultor Implementador De ERP - Técnico</h3>-->
+                        <!--  </a>-->
+                        <!--  <p>-->
+                        <!--                                                                          Urna cursus. Proin fermentum leo vel orci. Cras adipiscing enim eu turpis egestas pretium aenean. Cras adipiscing enim eu turpis egestas pretium aenean.-->
+                        <!--                                                                      </p>-->
+                        <!--  <div class="vacancies__card__details">-->
+                        <!--    <div class="vacancies__card__date">-->
+                        <!--      <span class="vacancies__card__icon far fa-calendar-alt"/>-->
+                        <!--      <p>Publicado: 15/04/2021 17:00</p>-->
+                        <!--    </div>-->
+                        <!--    <div class="vacancies__card__location">-->
+                        <!--      <p>Guayaquil-Ecuador</p>-->
+                        <!--      <figure class="vacancies__card__icon">-->
+                        <!--        <img src="/data_opa/static/img/site/export/corporativo/ecuador.png" alt="" style="width:70%"/>-->
+                        <!--      </figure>-->
+                        <!--    </div>-->
+                        <!--  </div>-->
+                        <!--</div>-->
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-equipo" role="tabpanel" aria-labelledby="v-pills-settings-tab"></div>
+
+              <div class="tab-pane fade active show" id="v-pills-team" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div>
+                  <div class="equipo-comercial">
+
+                    <div class="titulo fadeIn">
+                      <h3 id="area-nombre"></h3>
+                      <p id="area-lema" class="oculto"></p>
+                    </div>
+
+                    <div class="grid-container container-colaboradores mx-auto"/>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <template id="template-colaborador">
+        <div class="grid-item team-member fadeIn">
+          <a href="" target="_blank" class="enlace-linkedin">
+            <img src="" alt=""/>
+            <h4/>
+          </a>
+          <p/>
+        </div>
+      </template>
+    </t>
+    <script src="http://127.0.0.1:5500/opajs/corporativo.js"></script>
+  </t>
+  
