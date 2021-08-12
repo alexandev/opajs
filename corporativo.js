@@ -76,7 +76,7 @@ function mostrar_colaboradores(e, area){
 
     async function getColaboradoresData(){
         try{
-            let res = await fetch("https://raw.githubusercontent.com/alexandev/opajs/master/colaboradores.json")
+            let res = await fetch("https://alexandev.github.io/opajs/colaboradores.json")
             let json = await res.json()
             
             if(!res.ok)throw{
