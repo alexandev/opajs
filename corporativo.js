@@ -15,7 +15,7 @@ function mostrarVacantes(){
 
 function mostrar_pestania(){
     const pestaniaUrl = getParameterByName("")
-    console.log(pestaniaUrl)
+    // console.log(pestaniaUrl)
 
     if(pestaniaUrl==="vacantes"){
         mostrarVacantes()
@@ -76,14 +76,7 @@ function mostrar_colaboradores(e, area){
 
     async function getColaboradoresData(){
         try{
-            let res = await fetch("https://alexandev.github.io/opajs/colaboradores.json")
-            let json = await res.json()
-            
-            if(!res.ok)throw{
-                status:res.status, statusText:res.statusText
-            }
-
-            json.forEach(colaborador=>{
+            colaboradores.forEach(colaborador=>{
                 if(colaborador.area.toLowerCase()==boton_presionado){
                     $templateColaborador.querySelector(".enlace-linkedin").setAttribute("href",colaborador.linkedin)
                     $templateColaborador.querySelector("img").setAttribute("src",colaborador.foto)
@@ -112,26 +105,4 @@ const tabColaboradores = document.querySelectorAll(".tab-colaboradores")
 for(let i = 0; i != tabColaboradores.length; i++){
     tabColaboradores[i].addEventListener("click", mostrar_colaboradores)
 }
-
-
-
-// var pestanias = document.querySelector("#pestanias")
-
-// const vacantes = getParameterByName("vacantes")
-// if(vacantes==1){
-//     let $tab_seleccionada = document.querySelector("#v-pills-tab .nav-link.active");
-//     console.log($tab_seleccionada)
-//     // $tab_seleccionada.classList.remove("active");
-//     // console.log($tab_seleccionada)
-//     // let empresa_content = document.querySelector("#v-pills-empresa");
-//     // empresa_content.classList.remove("show");
-//     // empresa_content.classList.remove("active");
-
-//     let pestania_vacantes = document.querySelector("#trabaja-tab");
-//     let vacantes_contenido = document.querySelector("#v-pills-trabaja");
-//     pestania_vacantes.classList.add("active");
-//     vacantes_contenido.classList.add("active");
-//     vacantes_contenido.classList.add("show");
-// }
-
 
